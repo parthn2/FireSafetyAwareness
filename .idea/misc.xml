@@ -7,6 +7,11 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.18385416666666668" />
         <entry key="app/src/main/res/layout/abs_layout.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/facts_layout.xml" value="1.136513157894737" />
+        <entry key="app/src/main/res/layout/help_layout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/knowledge_layout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/procedure_layout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/videos_layout.xml" value="0.3098958333333333" />
       </map>
     </option>
   </component>
