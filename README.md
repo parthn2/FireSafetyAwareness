@@ -1,2 +1,2 @@
 # FireSafetyAwareness
-The home page of 
+The home page of the app looks like this
