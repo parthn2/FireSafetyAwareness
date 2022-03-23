@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.firesafety">
 
     <application
@@ -12,6 +13,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FireSafety">
+        <activity
+            android:name=".tabbed"
+            android:exported="true"
+            android:label="@string/title_activity_tabbed"
+            android:theme="@style/Theme.FireSafety.NoActionBar" />
+        <activity
+            android:name=".information"
+            android:exported="true" />
+        <activity
+            android:name=".FireInformation"
+            android:exported="true" />
+        <activity
+            android:name=".MyAdapter"
+            android:exported="true"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".videos"
             android:exported="false" />

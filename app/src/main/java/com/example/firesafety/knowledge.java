@@ -15,7 +15,8 @@ public class knowledge extends AppCompatActivity {
     }
 
     public void OpenInformation(View view) {
-        Intent intent = new Intent( knowledge.this , information.class);
+        Intent intent = new Intent( getApplicationContext(), information.class);
         startActivity(intent);
     }
+
 }
