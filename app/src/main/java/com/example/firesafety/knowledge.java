@@ -19,4 +19,9 @@ public class knowledge extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void OpenCauses(View view) {
+        Intent intent = new Intent( getApplicationContext(), causes.class);
+        startActivity(intent);
+    }
+
 }

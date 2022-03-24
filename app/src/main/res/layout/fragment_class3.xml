@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text='These fires are oftentimes deemed "energized electrical fires. Class C fires, involve electrical equipment. This type of fire might be started by old wiring in walls, frayed electrical cords, worn-out breaker boxes, or faulty apliances.Electrical fires are very common in both homes and industrial settings. The first thing you should try to do if an electrical fire starts is to disconnect the appliance or item from its power source only if it is safe to do so. If possible, you should try to extinguish the flames using a carbon dioxide or dry powder fire extinguisher. If and when the power source is disconnected, the fire can become a different class of fire, typically Class A. Do not try to put out an electrical fire with a water or foam extinguisher, as both of those materials can conduct electricity and potentially make the situation more dangerous.' />
+
+</FrameLayout>

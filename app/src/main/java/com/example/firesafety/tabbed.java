@@ -36,5 +36,28 @@ public class tabbed extends AppCompatActivity {
         tabs.addTab(tabs.newTab().setText("Class C"));
         tabs.addTab(tabs.newTab().setText("Class D"));
         tabs.addTab(tabs.newTab().setText("Class K"));
+
+
+        final MyAdapter2 adapter = new MyAdapter2(this,getSupportFragmentManager(), tabs.getTabCount());
+        viewPager.setAdapter(adapter);
+
+        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabs));
+
+        tabs.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
     }
 }

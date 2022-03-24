@@ -20,6 +20,7 @@ public class videos extends AppCompatActivity {
 
         List<String> title = new ArrayList<>();
         List<Integer> image = new ArrayList<>();
+        List<String> link = new ArrayList<>();
 
         title.add("Video1");
         title.add("Video2");
@@ -28,6 +29,10 @@ public class videos extends AppCompatActivity {
         image.add(R.drawable.background2);
         image.add(R.drawable.background2);
         image.add(R.drawable.background2);
+
+        link.add("");
+        link.add("");
+        link.add("");
 
         MyAdapter myAdapter = new MyAdapter(this, title, image);
         listView.setAdapter((ListAdapter) myAdapter);

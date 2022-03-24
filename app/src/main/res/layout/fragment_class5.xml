@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class5">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="These typically occur while cooking.   Because of the high flash point of cooking oils and fats, Class K fires often start when a pan is left unattended for too long on a stove.  a cooking oil fire with liquid is likely to create a dangerous splatter effect and spread the flames. Instead, you should It is advised to extinguish a Class K fire with a wet chemical extinguisher. " />
+
+</FrameLayout>

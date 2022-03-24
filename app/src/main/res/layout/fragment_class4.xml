@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="It takes high levels of heat to ignite most metals, which makes Class D fires pretty rare outside of laboratories and industrial settings. Class D fires are oftentimes caused by alkali metals such as potassium, magnesium, aluminum, and sodium, as these can ignite when exposed to air or water. It is advised extinguishing these types of fires with a dry powder extinguisher only. Dry powder extinguishers work on metal fires by separating the fuel from oxygen or removing the heat element of the blaze, but foam or water extinguishers can potentially increase the intensity of the flames and cause dangerous explosions, according to Imperial Systems. " />
+
+</FrameLayout>

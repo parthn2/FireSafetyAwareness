@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Class2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Class B fires involve ignitable liquids or gases like petroleum grease, alcohol, paint, propane, or gasoline. It's very important not to use a water extinguisher on a Class B fire — the stream of water might spread the flaming material rather than extinguish it.  Class B fires should be extinguished using foam, powder, or carbon dioxide extinguishers These types of extinguishers work by cutting off a fire's oxygen supply. " />
+
+</FrameLayout>
