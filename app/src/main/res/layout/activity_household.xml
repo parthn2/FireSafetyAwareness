@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".household">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Common Causes of Household Fire"
+                tools:layout_editor_absoluteX="95dp"
+                tools:layout_editor_absoluteY="42dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Heating Equipment "
+                tools:layout_editor_absoluteX="142dp"
+                tools:layout_editor_absoluteY="103dp" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/household1"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A house can easily catch firefrom the misuse of appliances and heating equipment to smoking carelessly.Below are some most common causes and precautions of the house fire."
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="189dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Cooking Equipment "
+                tools:layout_editor_absoluteX="139dp"
+                tools:layout_editor_absoluteY="312dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/household2"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Most kitchen fires occur because people get distracted and leave their cooking unattended. Keep combustibles (e.g. oven mitts, dish towels, paper towels) away from heat sources. Consider having a fire blanket or suitable fire extinguisher available nearby to use in the event of a fire.Stay in the kitchen when cooking, especially if using oil or high temperatures"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="402dp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Careless Smoking"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="555dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/household3"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wherever possible make sure the home is off limits for smoking, and especially bedrooms Use large, deep ashtrays; never place an ashtray on or near anything that will burn; and check furniture for fallen cigarettes/embers . Do not discard cigarette butts on floors and always use a non-combustible receptacle as an ashtray "
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="634dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Candles"
+                tools:layout_editor_absoluteX="208dp"
+                tools:layout_editor_absoluteY="793dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/household4"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Every candle comes with a warning: “a burning candle should never be left unattended.” Yet, many candles are often forgotten and can burn out of control. Candle fires are most likely to occur on Christmas Day, New Year’s Day, and Christmas Eve."
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="890dp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Electrical Equipment "
+                tools:layout_editor_absoluteX="209dp"
+                tools:layout_editor_absoluteY="1004dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/household5"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Any device that uses electrical power has the potential to start a fire, and overheated lighting equipment comes in at the top of the list. Shoddy electrical work within a home — poorly connected circuits, loose wires, improper grounding — is also a danger."
+                tools:layout_editor_absoluteX="190dp"
+                tools:layout_editor_absoluteY="1095dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Curious Children"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="1278dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/household6"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Small children unknowingly playing with fire or matches inside the home are one of the leading causes of house fires. Older kids who know what fire can do — and just want to see what happens — are equally dangerous. Though there may be no way to curb their curiosity entirely, it’s possible to mitigate potential disaster by talking to children about how destructive careless behavior around fire may be."
+                tools:layout_editor_absoluteX="224dp"
+                tools:layout_editor_absoluteY="1368dp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Lightning"
+                tools:layout_editor_absoluteX="184dp"
+                tools:layout_editor_absoluteY="1534dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/household7"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lightning fires most commonly occur during the summer months when afternoon and early evening storms are at their peak. Homes in heavily wooded areas are extra vulnerable to lightning strikes that can set the surrounding landscape on fire."
+                tools:layout_editor_absoluteX="182dp"
+                tools:layout_editor_absoluteY="1628dp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Flammable Liquids"
+                tools:layout_editor_absoluteX="201dp"
+                tools:layout_editor_absoluteY="1735dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/household8"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Vapours from flammable liquids – fuels, solvents, cleaning agents, thinners, adhesives, paints, and other raw materials – can ignite or explode if used or stored improperly. The vapours can easily ignite from even just high temperatures or weak ignition sources (one spark of static electricity). Vapours being heavier than air, may travel some distance to an ignition source and then flash back. Don’t store flammable liquids near a heating source but, ideally, outside the home in a cool ventilated area, in approved flammable liquid containers. "
+                tools:layout_editor_absoluteX="255dp"
+                tools:layout_editor_absoluteY="1854dp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Inadequate Wiring"
+                tools:layout_editor_absoluteX="200dp"
+                tools:layout_editor_absoluteY="2000dp" />
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/household9"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Older homes and apartments can have inadequate wiring – a fire and an electrical hazard. Some warning signs:  1) You have to disconnect one appliance to plug in another  2) You have to use extension cords or “octopus” outlets extensively  3) Fuses blow or circuit breakers trip frequently 4) Lights dim when you use another appliance"
+                tools:layout_editor_absoluteX="203dp"
+                tools:layout_editor_absoluteY="2093dp" />
+
+
+            </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

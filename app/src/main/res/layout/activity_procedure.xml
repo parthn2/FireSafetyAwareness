@@ -5,12 +5,182 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".procedure">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            >
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="This is procedure class"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="142dp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:text="Fires can be very dangerous and you should always be certain that you will not endanger yourself or others when attempting to put out a fire. For this reason, when a fire is discovered just remember 3 A's "
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:textSize="32dp"
+                android:text="Activate The Alarm"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                tools:layout_editor_absoluteX="246dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="172dp"
+                android:layout_height="216dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/procedure1"
+                tools:layout_editor_absoluteX="223dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="If you discover or suspect a fire, sound the building fire alarm. If there is no alarm in the building, warn the other occupants by knocking on doors and shouting as you leave."
+                app:layout_constraintTop_toBottomOf="@+id/imageView5"
+                tools:layout_editor_absoluteX="-15dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:textSize="32dp"
+                android:text="Assist"
+                app:layout_constraintTop_toBottomOf="@+id/textView8"
+                tools:layout_editor_absoluteX="293dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                app:srcCompat="@drawable/procedure2"
+                tools:layout_editor_absoluteX="217dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="68dp"
+                android:text="Try to rescue others only if you can do so safely. Move away from the building and out of the way of the fire department. Don't go back into the building until the fire department says it is safe to do so."
+                app:layout_constraintTop_toBottomOf="@+id/imageView7"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="56dp"
+                android:textSize="32dp"
+                android:text="Attempt to Extinguish"
+                app:layout_constraintTop_toBottomOf="@+id/textView10"
+                tools:layout_editor_absoluteX="262dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="270dp"
+                android:layout_height="279dp"
+                android:layout_marginTop="44dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView12"
+                app:srcCompat="@drawable/procedure3"
+                tools:layout_editor_absoluteX="217dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALL THE FIRE DEPARTMENT In case of Fire accident, immediately inform the Nearest Fire Station/nearest Police Station in the following Telephone Numbers : Fire Station: Tel / Phone No. 101 Police Station Tel   -   100"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8"
+                tools:layout_editor_absoluteX="-13dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:textSize="32dp"
+                android:text="IF Someone is on Fire"
+                app:layout_constraintTop_toBottomOf="@+id/textView13"
+                tools:layout_editor_absoluteX="262dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="411dp"
+                android:layout_height="280dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView14"
+                app:srcCompat="@drawable/procedure4"
+                tools:layout_editor_absoluteX="151dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="92dp"
+                android:text="Do not allow the flames to spread. Lay the person down on the ground and wrap them tightly with a thick piece of cloth and smother the flame by gently rolling the victim or by patting over the covering."
+                app:layout_constraintTop_toBottomOf="@+id/imageView9"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textSize="32dp"
+                android:text="Only Fight Fire if :"
+                app:layout_constraintTop_toBottomOf="@+id/textView15"
+                tools:layout_editor_absoluteX="280dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="Total and immediate evacuation is safest. Only use a fire extinguisher if the fire is very small and you know how to do it safely. If you can't put out the fire, leave immediately. Make sure the fire department is called -- even if you think the fire is out.  The first rule is to always position yourself with an exit or means of escape at your back before you attempt to use an extinguisher to put out a fire. In case the extinguisher malfunctions, or something unexpected happens, you need to be able to get out quickly, and you don't want to become trapped. Just remember, always keep an exit at your back. However, before deciding to fight the fire, keep these rules in mind:"
+                app:layout_constraintTop_toBottomOf="@+id/textView16"
+                tools:layout_editor_absoluteX="-13dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textSize="32dp"
+                android:text="Never Fight Fire if :"
+                app:layout_constraintTop_toBottomOf="@+id/textView17"
+                tools:layout_editor_absoluteX="293dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="579dp"
+                android:layout_height="363dp"
+                android:layout_marginTop="52dp"
+                app:layout_constraintTop_toBottomOf="@+id/textView18"
+                app:srcCompat="@drawable/procedure5"
+                tools:layout_editor_absoluteX="71dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="116dp"
+                android:text="You don't know what is burning. If you don't know what is burning, you don't know what type of extinguisher to use. Even if you have an ABC extinguisher, there may be something in the fire which is going to explode or produce highly toxic smoke. Chances are, you will know what's burning, or at least have a pretty good idea, but if you don't, let the fire department handle it.    The fire is spreading rapidly beyond the spot where it started. The time to use an extinguisher is in the incipient, or beginning, stages of a fire. If the fire is already spreading quickly, it is best to simple evacuate the building, closing doors and windows behind you as you leave.   Your instincts tell you not to. If you are uncomfortable with the situation for any reason, just let the fire department do their job. "
+                app:layout_constraintTop_toBottomOf="@+id/imageView10"
+                tools:layout_editor_absoluteX="0dp" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

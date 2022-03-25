@@ -14,6 +14,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FireSafety">
         <activity
+            android:name=".industrial"
+            android:exported="true" />
+        <activity
+            android:name=".ui.main.industrial"
+            android:exported="true" />
+        <activity
+            android:name=".household"
+            android:exported="true" />
+        <activity
             android:name=".MyAdapter2"
             android:exported="true" />
         <activity

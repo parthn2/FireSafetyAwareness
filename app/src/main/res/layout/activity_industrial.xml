@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".industrial">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Common Causes of Industrial fire"
+                tools:layout_editor_absoluteX="136dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/industrial1and4"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Industrial fires and explosions cost companies and governments billions of dollars every year, not to mention the loss of life, which can’t be described in monetary terms.Below are some causes of Industrial fire"
+                tools:layout_editor_absoluteX="166dp"
+                tools:layout_editor_absoluteY="159dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Combustible Dust"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="278dp" />
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/industrial2"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextOften overlooked, and highly deadly, combustible dust is a major cause of fire in food manufacturing, woodworking"
+                tools:layout_editor_absoluteX="180dp"
+                tools:layout_editor_absoluteY="374dp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Hot Work"
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="465dp" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/industrial3"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hot work is one of the leading causes of industrial fires across all industries. Although hot work is commonly equated with welding and torch cutting, there are many other activities — including brazing, burning, heating, and soldering — that pose a fire hazard. This is because the sparks and molten material, which reach temperatures greater than 1000°F, can easily travel more than 35 feet. Hot work is also a major culprit in combustible dust fires, as the sparks generated from the work can ignite dust in the surrounding area."
+                tools:layout_editor_absoluteX="160dp"
+                tools:layout_editor_absoluteY="545dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Flammable Liquids and Gases"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="743dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/industrial1and4"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="These fires, which often occur at chemical plants, can be disastrous"
+                tools:layout_editor_absoluteX="193dp"
+                tools:layout_editor_absoluteY="819dp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Electrical Hazards"
+                tools:layout_editor_absoluteX="170dp"
+                tools:layout_editor_absoluteY="896dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/industrial5"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electrical fires are one of the top five causes of fires in manufacturing plants. Here is a  list of specific electrical hazards: Overloaded circuits Overloaded outlets Extension cords Wiring that is exposed  Static discharge "
+                tools:layout_editor_absoluteX="178dp"
+                tools:layout_editor_absoluteY="996dp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Machinery and Equipment"
+                tools:layout_editor_absoluteX="173dp"
+                tools:layout_editor_absoluteY="1148dp" />
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="231dp"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/industrial6"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="2011dp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faulty equipment and machinery are also major causes of industrial fires. Heating and hot work equipment are typically the biggest problems here — in particular, furnaces that aren’t properly installed, operated, and maintained. In addition, any mechanical equipment can become a fire hazard because of friction between the moving parts. This risk can be brought down to practically zero simply by following recommended cleaning and maintenance procedures, including lubrication. "
+                tools:layout_editor_absoluteX="184dp"
+                tools:layout_editor_absoluteY="1240dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
