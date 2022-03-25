@@ -42,8 +42,8 @@
         android:id="@+id/textView2"
         android:layout_width="58dp"
         android:layout_height="31dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="52dp"
         android:gravity="center_vertical|center_horizontal"
         android:text="Call "
         android:textSize="20sp"
@@ -55,8 +55,8 @@
         android:id="@+id/textView3"
         android:layout_width="65dp"
         android:layout_height="29dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="80dp"
         android:gravity="center_vertical|center_horizontal"
         android:text="Email "
         android:textSize="20sp"
@@ -69,46 +69,50 @@
         android:layout_width="210dp"
         android:layout_height="54dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="337dp"
         android:gravity="center_vertical|center_horizontal"
         android:text="Send Feedback"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintHorizontal_bias="0.259"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="52dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="136dp"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:srcCompat="@drawable/callus" />
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="76dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="32dp"
+        android:onClick="Call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/help1" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="58dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="60dp"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/email" />
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="76dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:srcCompat="@drawable/help2" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="60dp"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:srcCompat="@drawable/fb" />
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="79dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        app:srcCompat="@drawable/help3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

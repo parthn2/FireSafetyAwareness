@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.firesafety">
-
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
     <application
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
